@@ -1,0 +1,72 @@
+#all{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:black;
+    padding: 9px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 200px;
+    width:30%;
+    height:30%;
+    left: 35%;
+}
+body{
+    background-color: rgba(5, 5, 5, 0.9);
+}
+#_h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+h3{
+    border: 1px solid;
+    width: fit-content;
+    position: relative;
+    left: 30%;
+    padding: 6px;
+    border-radius: 9px;
+}
+#btn{
+    text-transform: uppercase;
+    background-color:rgba(218, 237, 13, 0.8);
+    width: 90px;
+    height: 40px;
+    color: white;
+    padding: 5px;
+    font:message-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+#btn:hover{
+    box-shadow: inset -800px 0px 0px 0px black;
+}
+#btn:active{
+    color: yellow;
+}
+#submit{
+    text-transform: uppercase;
+    background-color:rgba(218, 237, 13, 0.8);
+    width: 90px;
+    height: 40px;
+    color: white;
+    padding: 5px;
+    font:message-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+#submit:hover{
+    box-shadow: inset -800px 0px 0px 0px black;
+}
+#submit:active{
+    color: yellow;
+}
